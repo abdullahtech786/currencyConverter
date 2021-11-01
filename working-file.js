@@ -3,7 +3,7 @@
 const select = document.querySelectorAll("select");
 const input = document.querySelectorAll("input");
 const API_URL =
-  "http://api.exchangeratesapi.io/v1/latest?access_key=78042e0e362e37597e15fa6118512848";
+  "https://api.exchangeratesapi.io/v1/latest?access_key=78042e0e362e37597e15fa6118512848";
 let html = " ";
 
 async function currency() {
